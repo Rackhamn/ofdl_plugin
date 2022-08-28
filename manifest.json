@@ -1,0 +1,13 @@
+{
+	"name": "Download Using Website & MIME Ordering",
+	"description": "Sets the download path for any file into 'Downloads/website_name/file_ext/file.ext'.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": [
+		"storage",
+		"downloads"
+	],
+	"background": {
+		"service_worker": "dl.js"
+	}
+}
